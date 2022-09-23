@@ -14,7 +14,8 @@ public:
 signals:
     void actionKey(int keyId, bool isPress);
     void stateBrightness(int brightnessKeys,    int brightnessDisplay,
-                         int brightnessSensor1, int brightnessSensor2);
+                         int brightnessSensor1, int brightnessSensor2,
+                         int brightnessExtCtrl);
     void stateTemperature(int temperature1, int temperature2);
     void statePowerSupply(bool isOperabilityBoardPowerSupply, bool isOperabilityAccumPowerSupply);
 
